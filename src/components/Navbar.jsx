@@ -5,7 +5,6 @@ import {
   PhotoIcon,
   VideoCameraIcon,
   DocumentTextIcon,
-  InboxStackIcon,
   MegaphoneIcon,
   UserIcon,
   NewspaperIcon,
@@ -19,10 +18,9 @@ import { NavLink } from 'react-router-dom'
 
 const products = [
   { name: 'Image Annotation', href: '/img', icon: PhotoIcon },
-  { name: 'Video Annotation', href: '/contact', icon: VideoCameraIcon },
-  { name: 'Text Annotation', href: '#', icon: DocumentTextIcon },
-  { name: 'Data Annotation', href: '#', icon: InboxStackIcon },
-  { name: 'Audio Transcription', href: '#', icon: MegaphoneIcon },
+  { name: 'Video Annotation', href: '/vid', icon: VideoCameraIcon },
+  { name: 'Text Annotation', href: '/text', icon: DocumentTextIcon },
+  { name: 'Audio Transcription', href: '/Aud', icon: MegaphoneIcon },
   { name: 'Sentiment Analysis', href: '#', icon: UserIcon },
   { name: 'Content Moderation', href: '#', icon: NewspaperIcon },
   { name: 'Product Categorization', href: '#', icon: RectangleGroupIcon },
@@ -99,29 +97,8 @@ export default function Example() {
               </Popover.Panel>
             </Transition>
           </Popover>
-
+          <NavLink to={'/career'}><a className="text-sm font-semibold leading-6 text-white">Career</a></NavLink>
           <NavLink to={'/about'}><a className="text-sm font-semibold leading-6 text-white">About</a></NavLink>
-          <div className='relative'>
-            <button className="text-sm font-semibold flex items-center justify-between gap-1 leading-6 text-white" onClick={() => {
-              setCompanyDp(!companyDp)
-            }}>Company
-              <ChevronDownIcon className="h-5 w-5 mt-1 text-gray-400" aria-hidden="true" />
-            </button>
-            {
-              companyDp && (
-                <div className="absolute top-10 rounded-3xl -left-10 w-48 h-[350px] bg-white px-3 py-6 border border-white">
-                  <div className="flex justify-center items-center h-full text-black flex-col">
-                  <a href="">
-                    vimal
-                  </a>
-                  <a href="">
-                    sivaraj 
-                  </a>
-                  </div>
-                </div>
-              )
-            }
-          </div>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <NavLink to={'/contact'} className="text-sm font-semibold leading-6 text-white">
@@ -156,9 +133,6 @@ export default function Example() {
                 <NavLink to={'/'} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-black">
                   Home
                 </NavLink>
-                <NavLink className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-black" to={'/about'}>
-                  About
-                </NavLink>
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -184,7 +158,8 @@ export default function Example() {
                     </>
                   )}
                 </Disclosure>
-                <NavLink to={'/'} className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-black">Company</NavLink>
+                <NavLink className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-black" to={'/career'}>Career</NavLink>
+                <NavLink className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-black" to={'/about'}>About</NavLink>
               </div>
               <div className="py-6">
                 <NavLink to={'/contact'} className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-white hover:bg-black">

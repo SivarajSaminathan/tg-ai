@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import AHero from '../components/AHero'
 import Footer from '../components/Footer'
-import Support from '../components/Support'
-import AFSection from '../components/AFSection'
-import ASSection from '../components/ASSection'
-import Features from '../components/Features'
-import Client from '../components/Client'
-import Grid2x2 from '../components/Grid2x2'
-import Team from '../components/Team'
-import Contact from '../components/Contact'
+import AHero from '../components/AboutComp/AHero'
+import Support from '../components/AboutComp/Support'
+import AFSection from '../components/AboutComp/AFSection'
+import ASSection from '../components/AboutComp/ASSection'
+import Features from '../components/AboutComp/Features'
+import Client from '../components/AboutComp/Client'
+import Grid2x2 from '../components/AboutComp/Grid2x2'
+import Team from '../components/AboutComp/Team'
 
 export const About = () => {
   return (
@@ -23,7 +22,6 @@ export const About = () => {
     <AFSection />
     <ASSection />
     <Team />
-    <Contact />
     <Footer />
     </>
   )

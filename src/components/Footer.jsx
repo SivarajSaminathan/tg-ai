@@ -14,10 +14,10 @@ const Footer = () => {
                     <div className='lg:w-1/2'>
                         <h3 className='font-bold text-xl border-b-4 border-[#c72c2c] inline-block mt-4'>Quick Links</h3>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
                             <li><a href="#">Our Service</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                     <div className='lg:w-1/2'>
