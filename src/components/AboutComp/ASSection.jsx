@@ -5,8 +5,8 @@ const ASSection = () => {
     <div name='ASSection' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
-                <h2 className='text-5xl font-bold'>Trusted by developers across the world</h2>
-                <p className='text-3xl py-6 text-gray-500'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque asperiores earum placeat veritatis dignissimos itaque.</p>
+                <h2 className='text-5xl font-bold text-white'>Trusted by developers across the world</h2>
+                <p className='text-3xl py-6 text-gray-300'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque asperiores earum placeat veritatis dignissimos itaque.</p>
             </div>
 
             <div className='grid md:grid-cols-3 gap-10 px-2 text-center'>

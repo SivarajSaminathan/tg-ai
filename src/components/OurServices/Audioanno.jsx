@@ -1,72 +1,98 @@
 import React from 'react'
-import bgImg from '../../assets/ImgAnno/imganno-1.png'
-import bgImg2 from '../../assets/ImgAnno/imganno-2.png'
-import bgImg3 from '../../assets/ImgAnno/imganno-3.png'
-import bgImg4 from '../../assets/ImgAnno/imganno-4.png'
-import bgImg5 from '../../assets/ImgAnno/imganno-5.png'
-import bgImg6 from '../../assets/ImgAnno/imganno-6.png'
-import bgImg7 from '../../assets/ImgAnno/imganno-7.png'
-import bgImg8 from '../../assets/ImgAnno/imganno-8.png'
-import bgImg9 from '../../assets/ImgAnno/imganno-9.png'
-import bgImg10 from '../../assets/ImgAnno/imganno-10.png'
-import bgImg11 from '../../assets/ImgAnno/ias-1.png'
-import bgImg12 from '../../assets/ImgAnno/ias-2.png'
-import bgImg13 from '../../assets/ImgAnno/ias-3.png'
-import bgImg14 from '../../assets/ImgAnno/ias-4.png'
-import bgImg15 from '../../assets/ImgAnno/ias-5.png'
-import bgImg16 from '../../assets/ImgAnno/ias-6.png'
-import bgImg17 from '../../assets/ImgAnno/ias-7.png'
-import bgImg18 from '../../assets/ImgAnno/ias-8.png'
+import bgImg from '../../assets/AudAnno/Aud-Hero.gif'
+import bgImg2 from '../../assets/AudAnno/Audanno-2.jpg'
+import bgImg3 from '../../assets/AudAnno/Audanno-3.jpg'
+import bgImg4 from '../../assets/AudAnno/Auds-1.jpg'
+import bgImg10 from '../../assets/AudAnno/Auds-2.jpg'
+import bgImg11 from '../../assets/AudAnno/Aud-1.jpg'
+import bgImg12 from '../../assets/AudAnno/Aud-2.jpg'
+import bgImg13 from '../../assets/AudAnno/Aud-3.jpg'
+import bgImg14 from '../../assets/AudAnno/Aud-4.jpg'
 import ServHero from '../ServiceComp/ServHero'
 import ServPara from '../ServiceComp/ServPara'
 import ServPrImg from '../ServiceComp/ServPrImg'
-import ServGrid from '../ServiceComp/ServGrid'
 import Client from '../AboutComp/Client'
 import ServSociProf from '../ServiceComp/ServSociProf'
 import { ServIcon } from '../ServiceComp/ServIcon'
 import { ArchiveIcon } from '@heroicons/react/outline'
 import { CoinsIcon, DiameterIcon, Globe2Icon, HeartPulseIcon, ShoppingCartIcon } from 'lucide-react'
-import ServiceBtn from '../ServComp/ServiceBtn'
-import ServUseCase from '../ServiceComp/ServUseCase'
+import ServBtn from '../ServiceComp/ServBtn'
 
-const Audioanno = () => {
+const Audioanno = (props) => {
     return (
         <>
             {/*Image Annotation Hero Section*/}
- 
-        
-            <ServHero img={bgImg} heading='IMAGE ANNOTATION SERVICES' text='We delivers stellar image annotation services that power AI, machine learning, and data operation strategies.'/>
-            
-            
+
+
+            <ServHero img={bgImg} heading='AUDIO TRANSCRIPTION SERVICES' text='We delivers stellar audio transcription services that power artificial intelligence, machine learning, and data operation strategies.' />
+
+
             {/*Types Image Annotation Para Section */}
 
-            <ServPara heading='What are the type of Image Annotation Services?' text='iMerit provides various image annotation services that will cater to a client’s project needs, including bounding boxes, polygon annotations, keypoint annotation, LiDar, semantic segmentation, and image classification. iMerit’s team works with the client to calibrate the quality and throughput of the job and deliver the best cost-quality ratio as you iterate. We recommend running a sample batch to clarify instructions, edge cases, and approximate task times, before launching full batches.' />
+            <ServPara heading=' TYPES OF AUDIO TRANSCRIPTION' text='iMerit’s experts convert audio material into text and organize the information into formats that machines and computers can understand. The text data can then be labeled to cater to a client’s project needs, and tasks including Named Entity Recognition (NER) and Entity Classification, Sentiment and Topic Analysis, and Intent And Conversation Analysis are performed. iMerit’s team works with the client to calibrate their quality and throughput requirements and builds custom processes to support client needs.' />
 
             {/*Para & Image Section */}
 
-            <ServPrImg img2={bgImg2} img3={bgImg3} heading='What is Image Annotation?' text1='Image annotation is the process of labeling an image, which strategically involves human-powered work and sometimes, computer-assisted help. It is an important step in creating computer vision models for tasks like image segmentation, image classification, and object detection. Image annotation can range from annotating every group of pixels within an image to one label for an entire image.' text2='Successful image annotation projects involving computer vision are built on high-quality annotation. The type of annotation needed will depend on the use case the project is designed for.' />
+            <ServPrImg img2={bgImg2} img3={bgImg3} heading='WHAT IS AUDIO TRANSCRIPTION?' text1='Audio transcription is the process of making sound and speech recognizable to applications such as chatbots and virtual assistant devices, using Machine Learning and Artificial Intelligence models. Audio transcription models form the backbone of many applications that aim to mimic or augment human interaction.' text2='iMerit’s audio transcription specialists transform datasets in English and other languages into text that can be personalized to the point where an end-user may believe that they are communicating with a human on the other end.' />
 
             {/*Image Annotation Services */}
 
-            <ServGrid heading='Image Annotation Services' text='Explore the whole collection of open-source web components and elements built with the utility classNamees from Tailwind'
+            <section className="bg-black">
+                <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+                    <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">AUDIO TRANSCRIPTION SOLUTION{/*Image Annotation Services*/}</h2>
+                        <p className="font-light text-white lg:mb-16 sm:text-xl dark:text-white">iMerit’s expert team can transcribe audio to text, and then perform nuanced annotations upon the text datasets, providing highly-accurate transcriptions with a rapid turnaround time.{/*Explore the whole collection of open-source web components and elements built with the utility classNamees from Tailwind*/}</p>
+                    </div>
+                    <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                            <a href="#" className='w-full'>
+                                <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={bgImg11} alt="Bonnie Avatar" />
+                            </a>
+                            <div className="p-5 w-full">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
+                                    <a href="#">TEXT TRANSCRIPTION</a>
+                                </h3>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">We can transcribe audio recordings of varying quality while handling confounding factors such as background noise that make for less than high quality audio. An We expert-in-the-loop annotator will listen to a conversation and scribe it.</p>
 
-                img12={bgImg12} heading1='BOUNDING BOXES' text1='The simplicity of bounding boxes is exactly their strength, making this method of image annotation applicable for a wide range of uses.'
+                            </div>
+                        </div>
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                            <a href="#" className='w-full'>
+                                <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={bgImg12} alt="Jese Avatar" />
+                            </a>
+                            <div className="p-5 w-full">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
+                                    <a href="#">INTENT AND CONVERSATION ANALYSIS</a>
+                                </h3>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">iMerit’s experts bring the building blocks of NLU together to drive the development of next-generation chatbots, digital assistants, and conversational AI products in retail, tech media, finance, and healthcare.</p>
 
-                img11={bgImg11} heading2='POLYGON ANNOTATION' text2='This technique is especially useful in computer vision as annotators can use it to identify irregular shapes, allowing computers to identify and respond to them.'
-
-                img13={bgImg13} heading3='SEMANTIC SEGMENTATION' text3='The expert semantic segmentation, data can be organized in multiple formats for AI models across a variety of use cases.'
-
-                img14={bgImg14} heading4='LIDAR ANNOTATION' text4='The high-quality ground truth datasets for use in computer vision models such as autonomous vehicles.'
-
-                img15={bgImg15} heading5='IMAGE CLASSIFICATION' text5='Expert image classification turns image data into image insights for AI and ML models.'
-
-                img16={bgImg16} heading6='3D CUBOID ANNOTATION' text6='We can generate training datasets to teach machine learning models to recognize the depth of objects.'
-
-                img17={bgImg17} heading7='KEYPOINT ANNOTATION' text7='This annotation type detects body features and could include facial expressions and emotions.'
-
-                img18={bgImg18} heading8='POLYLINE ANNOTATION' text8='Popular use cases include autonomous vehicles and teaching them road boundaries.'
-
-            />
+                            </div>
+                        </div>
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                            <a href="#" className='w-full'>
+                                <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={bgImg13} alt="Michael Avatar" />
+                            </a>
+                            <div className="p-5 w-full">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
+                                    <a href="#">NAMED ENTITY RECOGNITION (NER) & ENTITY CLASSIFICATION</a>
+                                </h3>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">By identifying, classifying, and linking relevant text strings, We powers innovations in digital document analysis, conversational AI development, and knowledge base curation.</p>
+                            </div>
+                        </div>
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                            <a href="#" className='w-full'>
+                                <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={bgImg14} alt="Michael Avatar" />
+                            </a>
+                            <div className="p-5 w-full">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
+                                    <a href="#">SENTIMENT & TOPIC ANALYSIS</a>
+                                </h3>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">iMerit’s audio transcription analysts identify trends and cultivate the clients’ brands using advanced sentiment and topic analysis solutions. Language specialists and domain experts interpret nuances in product reviews, financial news, and social media.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             {/* Icons & Features Services */}
 
@@ -74,23 +100,23 @@ const Audioanno = () => {
 
                 heading={'What Industries Need Image Annotation Services?'}
 
-                svgIcons1={<ArchiveIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading1={'Autonomous Technology & Transportation'}
-                para1={'Image annotation services can help in the deployment of autonomous technology through labeling of images of a car’s environment.'}
+                svgIcons1={<ArchiveIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading1={'LAW/LEGAL'}
+                para1={'Audio transcription experts in the legal sector transcribe audio footage to text format from legal briefs, depositions, official court hearings, testimonies, client depositions, interrogation, and general legal correspondence'}
 
                 svgIcons2={<HeartPulseIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading2={'Medical AI'}
-                para2={'Medical image annotation includes the labeling of medical imaging data to diagnose diseases and spot abnormalities.'}
+                para2={'iMerit’s experts in the medical lexicon dissect text and audio in medical records, digital documents, and clinical trial data to power Robotic Process Automation, clinical decision support algorithms, and virtual assistants.'}
 
                 svgIcons3={<ShoppingCartIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading3={'Commerce'}
-                para3={'With image annotation in commerce, experts categorize e-commerce content by multiple attributes to improve search relevance and customer experience for online shopper'}
+                para3={'In the insurance sector, audio transcription experts transcribe audio content including claims, calls with medical and legal professionals, recorded statements, and theft/property damage reports for the insurance investigation.'}
 
-                svgIcons4={<DiameterIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading4={'Geospatial Technology'}
-                para4={'Image annotation tasks include extracting intelligence from satellite, aerial, and drone imagery to power applications in energy, agriculture, logistics, security and mapping.'}
+                svgIcons4={<DiameterIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading4={'Government'}
+                para4={'Audio transcription experts in the government sector transcribe the audio footage to text format from dictation, court proceedings, witness statements, tribunals, and hearings.'}
 
-                svgIcons5={<CoinsIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading5={'Finance & Insurance Tech'}
-                para5={'Image annotation experts extract and organize relevant material from vast sets of unstructured visual data to enable the automation of manual processes and streamlining of operations.'}
+                svgIcons5={<CoinsIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading5={'Finance'}
+                para5={'Audio transcription experts help customers improve business operations like quarterly meetings, performance discussions, and future planning by leveraging Machine learning technology and RPA.'}
 
-                svgIcons6={<Globe2Icon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading6={'Government'}
-                para6={'Image annotation experts in the public sector offer a solution for sensitive data that requires processing at the federal, state, and local levels.'}
+                svgIcons6={<CoinsIcon className="w-7 h-7 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300" />} heading6={'Insurance'}
+                para6={'In the insurance sector, audio transcription experts transcribe audio content including claims, calls with medical and legal professionals, and any other experts, recorded statements, and theft/property damage reports for the insurance investigation.'}
 
             />
 
@@ -104,34 +130,41 @@ const Audioanno = () => {
 
             {/*Features Sections*/}
 
-            <ServUseCase heading='Image Annotation Use Case'
+            <section className="bg-black flex justify-center flex-col items-center w-full pl-16">
+            <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl">EARNINGS CALLS AUDIO TRANSCRIPTION{/*Image Annotation Use Case*/}</h2>
+            <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src={bgImg4} alt="" />
+                </div>&nbsp;
+                <div className="mr-auto place-self-center lg:col-span-5">
+                    <h1 className="max-w-2xl mb-4 text-2xl font-bold tracking-tight leading-none md:text-3xl xl:text-4xl text-white dark:text-white">{props.heading4}</h1>
+                    <p className="max-w-xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">We has vast experience in two types of audio transcription. One is verbatim transcription and the other is edited transcription. The company’s audio experts have helped transcribe earning calls for public companies. The team of audio transcription experts has transcribed a high number of calls with critical and exclusive financial information about companies to be available in real-time. Lengthy calls were split into 30-70 seconds audio clips for quick turnaround and a two-step process introduced to ensure high accuracy of transcription on the speech to text content and the audio file.</p>
+                </div>
+            </div>
 
-                img4={bgImg4} heading4='IMAGE ANNOTATION TOOL FOR SPORTS AI' text4='iMerit has developed a customized end-to-end workflow for its engagement with KinaTrax, leveraging its proprietary tools and technology as well as the expertise of its experienced computer vision teams. Our expert labelers extract still images from in-game video footage of the players captured from numerous angles. The images are annotated precisely based on KinaTrax’s requirements.'
+                        <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div className="mr-auto place-self-center lg:col-span-5">
+                    <h1 className="max-w-2xl mb-4 text-2xl font-bold tracking-tight leading-none md:text-3xl xl:text-4xl text-white dark:text-white">E-COMMERCE AUDIO TRANSCRIPTION</h1>
+                    <p className="max-w-xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">iMerit’s audio transcription experts have helped various e-commerce clients train voice assistants to enhance their customer service experience. We annotators have transcribed the audio clips with queries on the client interactions and then provided intent and slot annotations on the text transcribed. iMerit’s team processed more than 100K audio clips at an accuracy above 90%.</p>
+                </div>&nbsp;
+                <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src={bgImg10} alt="" />
+                </div>
+            </div>
 
-                img5={bgImg5} heading5='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text5='iMerit employs a team of visual data experts who have performed image annotation on up to 100,000 street images for a client who is a leading global automobile manufacturer and a major contender in the autonomous vehicle segment. The iMerit team has annotated the elements in the images into predetermined classes of objects, ultimately dividing the image into semantically meaningful parts, to train the machine learning algorithm not just to ‘see’ but also to understand and interpret its environment and accuracy.'
 
-                img6={bgImg6} heading6='DETECTING OPERATING BOUNDARIES WITH POLYLINE ANNOTATION' text6='iMerit experts will comb through each pixel of an image using the iMerit proprietary annotation platform to teach a vehicle to accurately detect and identify lines and splines such as street lanes, road markings, directions, divergence, and traffic.'
-
-                img7={bgImg7} heading7='BOUNDING BOXES FOR BETTER DATA EXTRACTION' text7='To improve the performance of their proprietary tax software, this company worked asked iMerit to annotate a series of documents using bounding boxes. This taught the algorithm to see and automatically extract the numbers that were in the fields on the documentation, sparing users from manual entry and automating and otherwise time-consuming process.'
-
-                img9={bgImg9} heading9='3D CUBOIDS FOR ROBOTIC AUTOMATION' text9='Through the use of 2D and 3D cuboids, iMerit experts are teaching robots in warehouses, factories, and other sorting and manufacturing facilities how to see and interact with objects. This helps further AI in robotics by allowing the robots to identify the dimensions of a given object, and interact with them accordingly to carry out a certain goal.'
-
-                img8={bgImg8} heading8='CREATE LARGER HARVEST YIELDS WITH COMPUTER VISION' text8='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
-
-                img10={bgImg10} heading10='FACIAL RECOGNITION USING KEYPOINT ANNOTATION' text10='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
-
-            />
+        </section>
 
             {/*Talk To An Expect Sections*/}
 
-            <ServiceBtn
+            <ServBtn
 
-            headingf='Getting Starting With Image Annotation' 
+                headingf='GETTING STARTED WITH AUDIO TRANSCRIPTION'
 
-            textf='iMerit annotation experts apply keypoints on a face, taking care to apply them to key locations such as the eyes, nose, and mouth. This allows iMerit to create world-class training datasets for use in facial recognition models. This advanced technology is helping in public areas where crimes occur to identity and apprehend perpetrators.' 
-            
-            btn='Talk To An Expect'
-            
+                textf='The need for speed in high-quality audio transcription has never been greater. We combines the best predictive and automated transcription technology with world-class data transcription and subject matter experts to deliver the data you need to get to production, fast.'
+
+                btn='Talk To An Expect'
+
             />
 
         </>

@@ -9,7 +9,7 @@ const AFSection = () => {
       <div className='max-w-[1240px] mx-auto py-12'>
 
         <div className='text-center py-8 text-slate-300'>
-          <h2 className='text-2xl uppercase'>Services</h2>
+          <h2 className='text-2xl uppercase text-white'>Services</h2>
           <h3 className='text-3xl font-bold text-white py-8'>DATA ANNOTATION SOLUTIONS FOR ENTERPRISE AI</h3>
           <p className='text-xl'>
           End-to-end data labeling platform with purpose-built applications and experts-in-the-loop to deliver high-quality at scale
@@ -18,7 +18,7 @@ const AFSection = () => {
 
         <div className='grid md:grid-cols-2'>
 
-          <div className='bg-slate-900 text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+          <div className='bg-gray-900 text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
             <div>
               <p className='text-6xl font-bold py-4 flex text-red-700'>Use Case</p>
             </div>
@@ -32,7 +32,7 @@ const AFSection = () => {
                 <p className='flex py-4'><CheckIcon className='w-8 mr-5 text-red-700'  />Human Attributionred</p>
             </div>
           </div>
-          <div className='bg-slate-900 text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
+          <div className='bg-gray-900 text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative'>
             <div>
               <p className='text-6xl font-bold py-4 flex text-red-700'>Annotation</p>
             </div>

@@ -21,11 +21,11 @@ const products = [
   { name: 'Video Annotation', href: '/vid', icon: VideoCameraIcon },
   { name: 'Text Annotation', href: '/text', icon: DocumentTextIcon },
   { name: 'Audio Transcription', href: '/Aud', icon: MegaphoneIcon },
-  { name: 'Sentiment Analysis', href: '#', icon: UserIcon },
-  { name: 'Content Moderation', href: '#', icon: NewspaperIcon },
-  { name: 'Product Categorization', href: '#', icon: RectangleGroupIcon },
-  { name: 'Image Segmentation', href: '#', icon: QueueListIcon },
-  { name: 'Lidar Annotation', href: '#', icon: ViewColumnsIcon },
+  { name: 'Sentiment Analysis', href: '/sen', icon: UserIcon },
+  { name: 'Content Moderation', href: '/conmon', icon: NewspaperIcon },
+  { name: 'Product Categorization', href: '/procat', icon: RectangleGroupIcon },
+  { name: 'Image Segmentation', href: '/imgseg', icon: QueueListIcon },
+  { name: 'Lidar Annotation', href: '/lidanno', icon: ViewColumnsIcon },
 ]
 
 function classNames(...classes) {
@@ -37,7 +37,7 @@ export default function Example() {
   const [companyDp, setCompanyDp] = useState(false)
 
   return (
-    <header className="bg-black">
+    <header className="bg-black z-[9999]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <NavLink to="#" className="-m-1.5 p-1.5">

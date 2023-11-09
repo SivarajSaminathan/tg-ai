@@ -1,14 +1,9 @@
 import React from 'react'
-import bgImg from '../../assets/ImgAnno/imganno-1.png'
-import bgImg2 from '../../assets/ImgAnno/imganno-2.png'
-import bgImg3 from '../../assets/ImgAnno/imganno-3.png'
-import bgImg4 from '../../assets/ImgAnno/imganno-4.png'
-import bgImg5 from '../../assets/ImgAnno/imganno-5.png'
-import bgImg6 from '../../assets/ImgAnno/imganno-6.png'
-import bgImg7 from '../../assets/ImgAnno/imganno-7.png'
-import bgImg8 from '../../assets/ImgAnno/imganno-8.png'
-import bgImg9 from '../../assets/ImgAnno/imganno-9.png'
-import bgImg10 from '../../assets/ImgAnno/imganno-10.png'
+import bgImg from '../../assets/TxtAnno/txt-hero.jpg'
+import bgImg2 from '../../assets/TxtAnno/textanno-2.jpg'
+import bgImg3 from '../../assets/TxtAnno/textanno-3.jpg'
+import bgImg4 from '../../assets/TxtAnno/txtanno-1.jpg'
+import bgImg8 from '../../assets/TxtAnno/txtanno-2.jpg'
 import txt1 from '../../assets/TxtAnno/txt-1.jpg'
 import txt2 from '../../assets/TxtAnno/txt-2.jpg'
 import txt3 from '../../assets/TxtAnno/txt-3.jpg'
@@ -21,8 +16,7 @@ import ServPrImg from '../ServiceComp/ServPrImg'
 import Client from '../AboutComp/Client'
 import ServSociProf from '../ServiceComp/ServSociProf'
 import { ServIcon } from '../ServiceComp/ServIcon'
-import ServiceBtn from '../ServComp/ServiceBtn'
-import ServUseCase from '../ServiceComp/ServUseCase'
+import ServBtn from '../ServiceComp/ServBtn'
 import { ArchiveIcon } from '@heroicons/react/outline'
 import { CoinsIcon, DiameterIcon, Globe2Icon, HeartPulseIcon, ShoppingCartIcon } from 'lucide-react'
 
@@ -32,7 +26,7 @@ const Textanno = () => {
             {/*Image Annotation Hero Section*/}
  
         
-            <ServHero img={bgImg} heading='TEXT ANNOTATION SERVICES' text='iMerit offers high-quality text annotation strategies and services to help deploy AI and machine learning in Medical AI, Finance & Insurance, and Government.'/>
+            <ServHero img={bgImg} heading='TEXT ANNOTATION SERVICES' text='We offers high-quality text annotation strategies and services to help deploy AI and machine learning in Medical AI, Finance & Insurance, and Government.'/>
             
             
             {/*Types Image Annotation Para Section */}
@@ -48,75 +42,75 @@ const Textanno = () => {
             <section className="bg-black">
                 <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
                     <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">TEXT ANNOTATION SERVICES</h2>
+                        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">TEXT ANNOTATION SERVICES</h2>
                     </div>
                     <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt1} alt="Bonnie Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">SENTIMENT ANALYSIS</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">iMerit’s advanced sentiment and topic analysts can identify trends and nuances in large volumes of text data including product reviews, financial news, and social media. Useable in any language, annotation for sentiment analysis enables companies to better understand how their customer bases view their products, which way a stock price may be trending, identify unsolved customer needs, and more.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">iMerit’s advanced sentiment and topic analysts can identify trends and nuances in large volumes of text data including product reviews, financial news, and social media. Useable in any language, annotation for sentiment analysis enables companies to better understand how their customer bases view their products, which way a stock price may be trending, identify unsolved customer needs, and more.</p>
 
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt2} alt="Jese Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">INTENT ANALYSIS</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">iMerit text annotation experts bring the building blocks of NLU together to drive the development of next-generation chatbots, digital assistants, and conversational AI products in retail, tech media, finance, and healthcare.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">iMerit text annotation experts bring the building blocks of NLU together to drive the development of next-generation chatbots, digital assistants, and conversational AI products in retail, tech media, finance, and healthcare.</p>
 
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt3} alt="Michael Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">NAMED ENTITY RECOGNITION</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">By identifying, classifying, underlining, and linking relevant text and metadata strings, iMerit powers innovations in digital document analysis, conversational AI development, and knowledge base curation.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">By identifying, classifying, underlining, and linking relevant text and metadata strings, iMerit powers innovations in digital document analysis, conversational AI development, and knowledge base curation.</p>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt4} alt="Michael Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">NATURAL LANGUAGE PROCESSING</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Understand the sentiment between the lines of text. Glean valuable insights to improve things like search relevance and improve automated chat systems that are commonly employed in customer service.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">Understand the sentiment between the lines of text. Glean valuable insights to improve things like search relevance and improve automated chat systems that are commonly employed in customer service.</p>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt5} alt="Michael Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">IMAGE ANNOTATION</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Add iMerit’s image annotation services to your existing (or iMerit provided) text annotation workflow to train models that operate jointly on images and text. Useful for intelligent document processing (IDP), generating better word embeddings, image summarization, logo and product identification + recognition, and more.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">Add iMerit’s image annotation services to your existing (or iMerit provided) text annotation workflow to train models that operate jointly on images and text. Useful for intelligent document processing (IDP), generating better word embeddings, image summarization, logo and product identification + recognition, and more.</p>
                             </div>
                         </div>
-                        <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
+                        <div className="items-center bg-gray-900 rounded-lg shadow sm:flex dark:bg-gray-900 dark:border-gray-700">
                             <a href="#" className='w-full'>
                                 <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src={txt6} alt="Sofia Avatar" />
                             </a>
                             <div className="p-5 w-full">
-                                <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+                                <h3 className="text-xl font-bold tracking-tight text-white dark:text-white">
                                     <a href="#">RAPID ANNOTATION</a>
                                 </h3>
-                                <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">iMerit annotation experts create best-in-class text training datasets in rapid time for any AI or ML project.</p>
+                                <p className="mt-3 mb-4 font-light text-white dark:text-gray-400">iMerit annotation experts create best-in-class text training datasets in rapid time for any AI or ML project.</p>
                             </div>
                         </div>
                     </div>
@@ -159,31 +153,37 @@ const Textanno = () => {
 
             {/*Features Sections*/}
 
-            <ServUseCase heading='Image Annotation Use Case'
+            <section className="bg-black flex justify-center flex-col items-center w-full pl-16">
+            <h2 className="mb-8 lg:mb-16 text-3xl font-bold tracking-tight leading-tight text-center text-white dark:text-white md:text-4xl">TEXT ANNOTATION USE CASES</h2>
+            <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src={bgImg4} alt="" />
+                </div>&nbsp;
+                <div className="mr-auto place-self-center lg:col-span-5">
+                    <h1 className="max-w-2xl mb-4 text-2xl font-bold tracking-tight leading-none md:text-3xl xl:text-4xl text-white dark:text-white">TEXT ANNOTATION SOLUTION FOR TAXATION DATA</h1>
+                    <p className="max-w-xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">CrowdReason has huge volumes of taxation data from its client base. These data vary across geographies, and tax jurisdictions, that need to be processed and structured quickly and accurately. iMerit’s experts have developed a workflow to break down the data extraction process into smaller tasks. These tasks are tackled by iMerit’s trained text annotation teams.</p>
+                </div>
+            </div>
 
-                img4={bgImg4} heading4='IMAGE ANNOTATION TOOL FOR SPORTS AI' text4='iMerit has developed a customized end-to-end workflow for its engagement with KinaTrax, leveraging its proprietary tools and technology as well as the expertise of its experienced computer vision teams. Our expert labelers extract still images from in-game video footage of the players captured from numerous angles. The images are annotated precisely based on KinaTrax’s requirements.'
+            <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+                <div className="mr-auto place-self-center lg:col-span-5">
+                    <h1 className="max-w-2xl mb-4 text-2xl font-bold tracking-tight leading-none md:text-3xl xl:text-4xl text-white dark:text-white">TEXT ANNOTATION SOLUTION FOR LINGUISTIC DATASETS</h1>
+                    <p className="max-w-xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Our customer provides a service that helps subscribers improve the quality of their writing by correcting mistakes and providing word and phrase suggestions. The company needed multiple wording suggestions to confirm and refine a sentence correction algorithm. The challenge was in balancing the subjective and nuanced nature of copy-editing with the need for a rule-based style standardization. Our text annotation teams were trained rigorously in the customer’s style guide.</p>
+                </div>&nbsp;
+                <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
+                    <img src={bgImg8} alt="" />
+                </div>
+            </div>
 
-                img5={bgImg5} heading5='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text5='iMerit employs a team of visual data experts who have performed image annotation on up to 100,000 street images for a client who is a leading global automobile manufacturer and a major contender in the autonomous vehicle segment. The iMerit team has annotated the elements in the images into predetermined classes of objects, ultimately dividing the image into semantically meaningful parts, to train the machine learning algorithm not just to ‘see’ but also to understand and interpret its environment and accuracy.'
-
-                img6={bgImg6} heading6='DETECTING OPERATING BOUNDARIES WITH POLYLINE ANNOTATION' text6='iMerit experts will comb through each pixel of an image using the iMerit proprietary annotation platform to teach a vehicle to accurately detect and identify lines and splines such as street lanes, road markings, directions, divergence, and traffic.'
-
-                img7={bgImg7} heading7='BOUNDING BOXES FOR BETTER DATA EXTRACTION' text7='To improve the performance of their proprietary tax software, this company worked asked iMerit to annotate a series of documents using bounding boxes. This taught the algorithm to see and automatically extract the numbers that were in the fields on the documentation, sparing users from manual entry and automating and otherwise time-consuming process.'
-
-                img9={bgImg9} heading9='3D CUBOIDS FOR ROBOTIC AUTOMATION' text9='Through the use of 2D and 3D cuboids, iMerit experts are teaching robots in warehouses, factories, and other sorting and manufacturing facilities how to see and interact with objects. This helps further AI in robotics by allowing the robots to identify the dimensions of a given object, and interact with them accordingly to carry out a certain goal.'
-
-                img8={bgImg8} heading8='CREATE LARGER HARVEST YIELDS WITH COMPUTER VISION' text8='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
-
-                img10={bgImg10} heading10='FACIAL RECOGNITION USING KEYPOINT ANNOTATION' text10='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
-
-            />
+        </section>
 
             {/*Talk To An Expect Sections*/}
 
-            <ServiceBtn
+            <ServBtn
 
-            headingf='Getting Starting With Image Annotation' 
+            headingf='GET STARTED WITH TEXT ANNOTATION' 
 
-            textf='iMerit annotation experts apply keypoints on a face, taking care to apply them to key locations such as the eyes, nose, and mouth. This allows iMerit to create world-class training datasets for use in facial recognition models. This advanced technology is helping in public areas where crimes occur to identity and apprehend perpetrators.' 
+            textf='The need for speed in high-quality text annotation has never been greater. We combines the best predictive and automated annotation technology with world-class data annotation and subject matter experts to deliver the data you need to get to production, fast.' 
             
             btn='Talk To An Expect'
             

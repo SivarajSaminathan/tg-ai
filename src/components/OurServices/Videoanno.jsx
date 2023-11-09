@@ -26,7 +26,7 @@ import ServSociProf from '../ServiceComp/ServSociProf'
 import { ServIcon } from '../ServiceComp/ServIcon'
 import { ArchiveIcon } from '@heroicons/react/outline'
 import { CoinsIcon, DiameterIcon, FactoryIcon, Globe2Icon, HeartPulseIcon, ShoppingCartIcon } from 'lucide-react'
-import ServiceBtn from '../ServComp/ServiceBtn'
+import ServBtn from '../ServiceComp/ServBtn'
 import ServUseCase from '../ServiceComp/ServUseCase'
 
 const Videoanno = () => {
@@ -124,11 +124,11 @@ const Videoanno = () => {
 
             {/*Talk To An Expect Sections*/}
 
-            <ServiceBtn
+            <ServBtn
 
-            headingf='Getting Starting With Image Annotation' 
+            headingf='GETTING STARTED WITH VIDEO ANNOTATION' 
 
-            textf='We annotation experts apply keypoints on a face, taking care to apply them to key locations such as the eyes, nose, and mouth. This allows We to create world-class training datasets for use in facial recognition models. This advanced technology is helping in public areas where crimes occur to identity and apprehend perpetrators.' 
+            textf='The need for speed in high-quality video annotation has never been greater. We combines the best predictive and automated annotation technology with world-class data annotation experts and subject matter experts to deliver the data you need to get to production, fast.' 
             
             btn='Talk To An Expect'
             

@@ -8,7 +8,7 @@ const CareerTopic = () => {
                     <div className="mx-auto max-w-screen-sm text-center">
                         <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-white dark:text-white">Discover Your New Career</h2>
                         <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Explore New Opportunities</p>
-                        <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-red-700 dark:focus:ring-gray-800">Our Jobs</a>
+                        <a href="#" className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white border border-gray-300 rounded-lg hover:bg-red-700 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-red-700 dark:focus:ring-gray-800">Our Jobs</a>
                     </div>
                 </div>
             </section>

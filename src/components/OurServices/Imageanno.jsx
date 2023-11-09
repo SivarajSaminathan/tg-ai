@@ -27,7 +27,7 @@ import ServSociProf from '../ServiceComp/ServSociProf'
 import { ServIcon } from '../ServiceComp/ServIcon'
 import { ArchiveIcon } from '@heroicons/react/outline'
 import { CoinsIcon, DiameterIcon, Globe2Icon, HeartPulseIcon, ShoppingCartIcon } from 'lucide-react'
-import ServiceBtn from '../ServComp/ServiceBtn'
+import ServBtn from '../ServiceComp/ServBtn'
 
 
 const Imageanno = () => {
@@ -40,7 +40,7 @@ const Imageanno = () => {
 
             {/*Types Image Annotation Para Section */}
 
-            <ServPara heading='What are the type of Image Annotation Services?' text='iMerit provides various image annotation services that will cater to a client’s project needs, including bounding boxes, polygon annotations, keypoint annotation, LiDar, semantic segmentation, and image classification. iMerit’s team works with the client to calibrate the quality and throughput of the job and deliver the best cost-quality ratio as you iterate. We recommend running a sample batch to clarify instructions, edge cases, and approximate task times, before launching full batches.' />
+            <ServPara heading='What are the type of Image Annotation Services?' text='We provides various image annotation services that will cater to a client’s project needs, including bounding boxes, polygon annotations, keypoint annotation, LiDar, semantic segmentation, and image classification. iMerit’s team works with the client to calibrate the quality and throughput of the job and deliver the best cost-quality ratio as you iterate. We recommend running a sample batch to clarify instructions, edge cases, and approximate task times, before launching full batches.' />
 
             {/*Para & Image Section */}
 
@@ -106,27 +106,27 @@ const Imageanno = () => {
 
             <ServUseCase heading='Image Annotation Use Case'
                         
-            img4={bgImg4} heading4='IMAGE ANNOTATION TOOL FOR SPORTS AI' text4='iMerit has developed a customized end-to-end workflow for its engagement with KinaTrax, leveraging its proprietary tools and technology as well as the expertise of its experienced computer vision teams. Our expert labelers extract still images from in-game video footage of the players captured from numerous angles. The images are annotated precisely based on KinaTrax’s requirements.' 
+            img4={bgImg4} heading4='IMAGE ANNOTATION TOOL FOR SPORTS AI' text4='We has developed a customized end-to-end workflow for its engagement with KinaTrax, leveraging its proprietary tools and technology as well as the expertise of its experienced computer vision teams. Our expert labelers extract still images from in-game video footage of the players captured from numerous angles. The images are annotated precisely based on KinaTrax’s requirements.' 
             
-            img5={bgImg5} heading5='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text5='iMerit employs a team of visual data experts who have performed image annotation on up to 100,000 street images for a client who is a leading global automobile manufacturer and a major contender in the autonomous vehicle segment. The iMerit team has annotated the elements in the images into predetermined classes of objects, ultimately dividing the image into semantically meaningful parts, to train the machine learning algorithm not just to ‘see’ but also to understand and interpret its environment and accuracy.'
+            img5={bgImg5} heading5='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text5='We employs a team of visual data experts who have performed image annotation on up to 100,000 street images for a client who is a leading global automobile manufacturer and a major contender in the autonomous vehicle segment. The We team has annotated the elements in the images into predetermined classes of objects, ultimately dividing the image into semantically meaningful parts, to train the machine learning algorithm not just to ‘see’ but also to understand and interpret its environment and accuracy.'
                         
-            img6={bgImg6} heading6='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text6='iMerit experts will comb through each pixel of an image using the iMerit proprietary annotation platform to teach a vehicle to accurately detect and identify lines and splines such as street lanes, road markings, directions, divergence, and traffic.'
+            img6={bgImg6} heading6='SEMANTIC SEGMENTATION FOR AUTONOMOUS VEHICLES' text6='We experts will comb through each pixel of an image using the We proprietary annotation platform to teach a vehicle to accurately detect and identify lines and splines such as street lanes, road markings, directions, divergence, and traffic.'
 
-            img7={bgImg7} heading7='BOUNDING BOXES FOR BETTER DATA EXTRACTION' text7='To improve the performance of their proprietary tax software, this company worked asked iMerit to annotate a series of documents using bounding boxes. This taught the algorithm to see and automatically extract the numbers that were in the fields on the documentation, sparing users from manual entry and automating and otherwise time-consuming process.'
+            img7={bgImg7} heading7='BOUNDING BOXES FOR BETTER DATA EXTRACTION' text7='To improve the performance of their proprietary tax software, this company worked asked We to annotate a series of documents using bounding boxes. This taught the algorithm to see and automatically extract the numbers that were in the fields on the documentation, sparing users from manual entry and automating and otherwise time-consuming process.'
      
-            img9={bgImg9} heading9='3D CUBOIDS FOR ROBOTIC AUTOMATION' text9='Through the use of 2D and 3D cuboids, iMerit experts are teaching robots in warehouses, factories, and other sorting and manufacturing facilities how to see and interact with objects. This helps further AI in robotics by allowing the robots to identify the dimensions of a given object, and interact with them accordingly to carry out a certain goal.'
+            img9={bgImg9} heading9='3D CUBOIDS FOR ROBOTIC AUTOMATION' text9='Through the use of 2D and 3D cuboids, We experts are teaching robots in warehouses, factories, and other sorting and manufacturing facilities how to see and interact with objects. This helps further AI in robotics by allowing the robots to identify the dimensions of a given object, and interact with them accordingly to carry out a certain goal.'
             
-            img8={bgImg8} heading8='CREATE LARGER HARVEST YIELDS WITH COMPUTER VISION' text8='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
+            img8={bgImg8} heading8='CREATE LARGER HARVEST YIELDS WITH COMPUTER VISION' text8='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, We experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
 
-            img10={bgImg10} heading10='FACIAL RECOGNITION USING KEYPOINT ANNOTATION' text10='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, iMerit experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
+            img10={bgImg10} heading10='FACIAL RECOGNITION USING KEYPOINT ANNOTATION' text10='Farmers use computer vision to monitor their crops for pests and plant diseases. Through the use of images collected by drones, We experts can teach a model to recognize pests and potential threats to crop fields by annotating every pixel of a given image.'
             
             />
 
-            <ServiceBtn 
+            <ServBtn 
             
-            headingf='Getting Starting With Image Annotation' 
+            headingf='GETTING STARTED WITH IMAGE ANNOTATION' 
             
-            textf='iMerit annotation experts apply keypoints on a face, taking care to apply them to key locations such as the eyes, nose, and mouth. This allows iMerit to create world-class training datasets for use in facial recognition models. This advanced technology is helping in public areas where crimes occur to identity and apprehend perpetrators.' 
+            textf='The need for speed in high-quality image annotation has never been greater. We combines the best predictive and automated annotation technology with world-class data annotation and subject matter experts to deliver the data you need to get to production, fast.' 
             
             btn='Talk To An Expect' 
 
