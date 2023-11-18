@@ -1,5 +1,4 @@
 import { useCallback, useState } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
 import { useDropzone } from 'react-dropzone'
 import { UploadCloud } from 'lucide-react'
@@ -10,16 +9,7 @@ function classNames(...classes) {
 
 export default function Example() {
   const [agreed, setAgreed] = useState(false)
-  const onDrop = useCallback(acceptedFiles => {
-    // Do something with the files
-  }, [])
-  const { acceptedFiles, getRootProps, getInputProps } = useDropzone();
-
-  const files = acceptedFiles.map(file => (
-    <li key={file.path}>
-      {file.path} - {file.size} bytes
-    </li>
-  ));
+ 
   return (
     <div className="isolate bg-black px-6 py-24 sm:py-32 lg:px-8">
       <div
@@ -28,7 +18,7 @@ export default function Example() {
       >
       </div>
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact sales</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Us</h2>
         <p className="mt-2 text-lg leading-8 text-white">
           Aute magna irure deserunt veniam aliqua magna enim voluptate.
         </p>
@@ -90,30 +80,21 @@ export default function Example() {
             </div>
           </div>
           <div className="sm:col-span-2">
-            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-white">
-              Phone number
-            </label>
-            <div className="relative mt-2.5">
-              <div className="absolute inset-y-0 left-0 flex items-center">
-                <label htmlFor="country" className="sr-only text-black">
-                  Country
-                </label>
-                <select
-                  id="country"
-                  name="country"
-                  className="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-black focus:ring-2 focus:ring-inset focus:ring-red-700 sm:text-sm " placeholder="Enter Your Mobile Number"
-                >
-                  <option>IND</option>
-                </select>
-              </div>
-              <input
-                type="tel"
-                name="phone-number"
-                id="phone-number"
-                autoComplete="tel"
-                className="block w-full rounded-md border-0 px-3.5 py-2 pl-24 text-black bg-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-700 sm:text-sm sm:leading-6" placeholder="Enter Your Mobile Number" />
-            </div>
-          </div>
+                        <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-white">
+                            Phone number
+                        </label>
+                        <div className="flex mt-2.5 bg-white rounded-md">
+                            <div className="flex items-center px-3">
+                                <p className=' text-black text-center'>+91</p>
+                            </div>
+                            <input
+                                type="tel"
+                                name="phone-number"
+                                id="phone-number"
+                                autoComplete="tel"
+                                className="block w-full rounded-md border-0 px-3.5 py-2  text-black bg-white shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-700 sm:text-sm sm:leading-6" placeholder="Enter Your Mobile Number" />
+                        </div>
+                    </div>
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm font-semibold leading-6 text-white">
               Message
@@ -128,26 +109,7 @@ export default function Example() {
               />
             </div>
           </div>
-          <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm font-semibold leading-6 text-white">
-            Upload  Resume
-            </label>
-            <section className="container h-32 rounded-md px-3 py-1 bg-white  mt-2 flex flex-col items-center justify-center">
-              <div {...getRootProps({ className: 'dropzone' })}>
-                <input {...getInputProps()} />
-                <div className="flex justify-center">  
-                <UploadCloud  className='h-12 w-12'/>
-                </div>
-                <div className="flex justify-center gap-3 items-center">
-                <p className='text-center'>Upload your resume, Click to upload </p>
-                </div>
-              </div>
-              <aside className='flex flex-col items-center'>
-                <h4>Files</h4>
-                <ul>{files}</ul>
-              </aside>
-            </section>
-          </div>
+     
 
           <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
             <div className="flex h-6 items-center">

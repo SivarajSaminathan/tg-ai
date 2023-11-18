@@ -6,7 +6,7 @@ const VideoBgHero = () => {
     return (
         <div className='main'>
             <div className="overlay"></div>
-            <video src={videoBg} autoPlay loop muted />
+            <video src={videoBg} autoPlay loop muted className='w-full h-full' />
             <div className="content">
                 <div className='max-w-[800px] mt-[-10px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                     <p className='text-[#c72c2c] font-bold p-2'>

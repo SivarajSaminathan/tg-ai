@@ -55,3 +55,19 @@ video {
 }
 
 
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important
+}
+
+.swiper-container {
+  -webkit-user-select: none;
+  position: relative;
+  z-index: 10 !important
+}
+
+
+.swiper-container .swiper img {
+  width: 100%;
+  height: auto
+}

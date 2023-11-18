@@ -12,6 +12,7 @@ import { Pro } from "./page/Pro";
 import { Imgsg } from "./page/Imgsg";
 import { Lid } from "./page/Lid";
 import { Cont } from "./page/Cont";
+import { ResumeUp } from "./page/ResumeUp";
 
 
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/imgseg" element={<Imgsg />} />
           <Route path="/lidanno" element={<Lid />} />
           <Route path="/career" element={<Career />} />
+          <Route path="/resume" element={<ResumeUp/>} />
         </Routes>
       </BrowserRouter>
     </>

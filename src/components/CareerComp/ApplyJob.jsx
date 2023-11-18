@@ -14,7 +14,7 @@ const ApplyJob = () => {
                             <p className='text-xl font-normal'>Business Area: Technology</p><br />
                             <p className='font-extralight'>Posted Within last 24hours</p>
                             <div className='text-center'>
-                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/contact">Apply Now</a></button>
+                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/resume">Apply Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -26,7 +26,7 @@ const ApplyJob = () => {
                             <p className='text-xl font-normal'>Business Area: Technology</p><br />
                             <p className='font-extralight'>Posted Within last 24hours</p>
                             <div className='text-center'>
-                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/contact">Apply Now</a></button>
+                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/resume">Apply Now</a></button>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ const ApplyJob = () => {
                             <p className='text-xl font-normal'>Business Area: Technology</p><br />
                             <p className='font-extralight'>Posted Within last 24hours</p>
                             <div className='text-center'>
-                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/contact">Apply Now</a></button>
+                                <button className='bg-red-700 mt-3 px-4 py-2 rounded-lg text-white'><a href="/resume">Apply Now</a></button>
                             </div>
                         </div>
                     </div>
