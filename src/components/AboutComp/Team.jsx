@@ -1,10 +1,10 @@
 import React from 'react'
-import bgImg1 from '../../assets/Team/team1.avif'
-import bgImg2 from '../../assets/Team/team2.avif'
-import bgImg3 from '../../assets/Team/team3.avif'
-import bgImg4 from '../../assets/Team/team4.avif'
-import bgImg5 from '../../assets/Team/team5.avif'
-import bgImg6 from '../../assets/Team/team6.avif'
+import bgImg1 from '../../assets/Team/team1.jpg'
+import bgImg2 from '../../assets/Team/team2.jpg'
+import bgImg3 from '../../assets/Team/team3.jpg'
+import bgImg4 from '../../assets/Team/team4.jpg'
+import bgImg5 from '../../assets/Team/team5.jpg'
+import bgImg6 from '../../assets/Team/team6.jpg'
 
 const Team = () => {
     return (
